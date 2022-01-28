@@ -29,7 +29,14 @@ console.log(area(2, 3))
 */
 
 printHeader('Exercise2')
-
+const crazySum = function(a, b) {
+if (a === b) {
+    return (a + b)*3
+} else {
+    return (a + b)
+} 
+}
+console.log(crazySum(2,2))
 
 /* EXERCISE 3
  Write a function called "crazyDiff" that computes the absolute difference between a given number and 19.
